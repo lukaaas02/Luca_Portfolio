@@ -3,19 +3,10 @@ body {
     background-color: silver;
 }
 
+
 img:hover{
-				border: 1px solid blue;
+	border: 1px solid blue;
 			}
-
-img{
-
-    width: 100%
-
-    max-width: 960px
-
-    height: auto;
-
-}
 
 
 a:link {

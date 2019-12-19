@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+
 }
+
+
+
 header h1, header h2 {
     margin: 0;
 }
@@ -27,6 +31,9 @@ header h1, header h2 {
     border-left: none;
     margin-left: 0;
 }
+
+
+
 #main {
     padding: 0 2em 2em 12em;
     position: relative;
@@ -54,4 +61,23 @@ footer {
 }
 footer p {
     margin: 0em; 
+}
+
+img{
+
+    width: 100%;
+
+    max-width: 960px;
+
+    height: auto;
+
+}
+
+@media(max-width:600px){
+	#main{
+	padding: 0;
+	}
+	#sidebar{
+	visibility: hidden;
+}
 }
