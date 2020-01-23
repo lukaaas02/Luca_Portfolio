@@ -81,6 +81,10 @@ img{
 	visibility: hidden;
 }
 
+  video{
+     resize:both;
+   }
+
 td{
 	display: block;
 	position: relative;
